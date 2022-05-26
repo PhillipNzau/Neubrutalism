@@ -1,2 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+  font-family: "Bebas";
+  src: local("Bebas"), url(./assets/fonts/BebasNeue-Regular.ttf) format("truetype");
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // Defines what 1 rem is
+  //font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+}
