@@ -3,11 +3,13 @@
   padding: 0 8rem;
   font-family: "Bebas", Arial, Helvetica, sans-serif !important;
 }
+
 .header {
   display: flex;
   align-content: center;
   justify-content: space-between;
   margin-bottom: 7.2rem;
+
   .logo-container {
     width: 11.25rem;
     height: 5rem;
@@ -15,11 +17,13 @@
     color: white;
     text-decoration: underline;
     text-align: center;
+
     p {
       padding-top: 1.25rem;
       font-size: 2.3rem;
     }
   }
+
   .nav-bar {
     display: flex;
     align-content: center;
@@ -43,12 +47,15 @@
 
 .hero {
   margin-bottom: 4.5rem;
+
   .row {
     margin-bottom: 3.4rem;
   }
+
   .hero-title {
     font-size: 5.25rem;
   }
+
   .call-to-action {
     width: 35.6rem;
     display: flex;
@@ -74,7 +81,11 @@
 
       &:hover {
         background-color: #F444CE;
-        p {display: none}
+
+        p {
+          display: none
+        }
+
         &:before {
           content: "YEEY";
           font-size: 2rem;
@@ -85,3 +96,63 @@
   }
 }
 
+.projects {
+  font-family: "Inria", Arial, Helvetica, sans-serif !important;
+
+  .projects-title {
+    font-size: 1.25rem;
+  }
+  .card-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .project-card {
+    width: 13.75rem;
+    height: 15.75rem;
+    margin: 0 0.7rem 4rem 0.7rem;
+    border: solid .35rem black;
+    box-shadow: 0.5rem 0.5rem black;
+    border-radius: 0.3rem;
+    .project-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      height: 2.5rem;
+      border-bottom: solid .35rem black;
+      p {
+        font-family: "Bebas", Arial, Helvetica, sans-serif;
+        font-size: 1.125rem;
+        margin: 0 0.7rem;
+        color: black;
+      }
+    }
+    .project-card-body {
+      padding: .7rem;
+      .card-time {
+        display: flex;
+        svg {
+          margin-top: .375rem;
+        }
+        p {
+          margin-left: .625rem;
+        }
+      }
+      .project-card-title {
+        margin-top: .188rem;
+        font-family: "Bebas", Arial, Helvetica, sans-serif;
+        font-size: 1.56rem;
+        line-height: 1.88rem;
+      }
+      .project-card-content {
+        font-size: 1rem;
+        margin-top: 1rem;
+        span {
+          color: #0062BC;
+          font-weight: bold;
+        }
+      }
+    }
+
+  }
+}

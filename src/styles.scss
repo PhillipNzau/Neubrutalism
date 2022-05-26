@@ -4,6 +4,11 @@
   font-family: "Bebas";
   src: local("Bebas"), url(./assets/fonts/BebasNeue-Regular.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: "Inria";
+  src: local("Inria"), url(./assets/fonts/InriaSans-Light.ttf) format("truetype");
+}
 *,
 *::after,
 *::before {
@@ -15,6 +20,10 @@
 html {
   // Defines what 1 rem is
   //font-size: 62.5%;
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 body {
