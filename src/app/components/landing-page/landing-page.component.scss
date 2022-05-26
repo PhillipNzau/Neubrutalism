@@ -1,10 +1,7 @@
 
 .main-page {
-  height: 100vh;
   padding: 0 8rem;
-  background-color: #FFDCA8;
   font-family: "Bebas", Arial, Helvetica, sans-serif !important;
-
 }
 .header {
   display: flex;
@@ -43,3 +40,48 @@
     }
   }
 }
+
+.hero {
+  margin-bottom: 4.5rem;
+  .row {
+    margin-bottom: 3.4rem;
+  }
+  .hero-title {
+    font-size: 5.25rem;
+  }
+  .call-to-action {
+    width: 35.6rem;
+    display: flex;
+    align-content: center;
+
+    .contact-btn {
+      width: 13.75rem;
+      height: 3.75rem;
+      margin: 0 0.7rem;
+      border: solid .35rem black;
+      background-color: #7D44F4;
+      text-align: center;
+      box-shadow: 0.5rem 0.5rem black;
+      transform: rotate(-5deg);
+      transition: all 0.7s linear;
+      border-radius: 0.3rem;
+
+      p {
+        font-size: 2rem;
+        color: black;
+        transform: rotate(5deg);
+      }
+
+      &:hover {
+        background-color: #F444CE;
+        p {display: none}
+        &:before {
+          content: "YEEY";
+          font-size: 2rem;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
